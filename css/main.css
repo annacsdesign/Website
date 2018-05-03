@@ -254,6 +254,11 @@ body{
     }
 }
 
+@media (max-width: 400px) {
+    width: 116%;
+    margin-left:-8%;
+}
+
 #bio a {
     font-size: 1.1em;
     margin-right: 10px;
