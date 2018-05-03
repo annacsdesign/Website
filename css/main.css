@@ -31,6 +31,14 @@ body{
     }
 }
 
+@media (width: 400px) {
+    #navbar {
+        margin-left: 7%;
+        margin-right: 7%;
+        width: 86%;
+    }
+}
+
 @media (max-width: 400px) {
     #navbar {
         margin-left: 6%;
