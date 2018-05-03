@@ -23,13 +23,35 @@ body{
     z-index:1;
 }
 
+@media (max-width: 550px) {
+    #navbar {
+        margin-left: 7%;
+        margin-right: 7%;
+        width: 86%;
+    }
+}
+
+@media (max-width: 400px) {
+    #navbar {
+        margin-left: 6%;
+        margin-right: 6%;
+        width: 88%;
+        height: 110px;
+    }
+}
+
 /* Logo inside navbar */
 #navbar img {
     float: left;
     height: 90px;
     margin-top:20px;
     transition: .5s ease;
-    
+}
+
+@media (max-width: 400px) {
+    #navbar img {
+        height: 70px;
+    }
 }
 
 #navbar img:hover {
@@ -61,7 +83,8 @@ body{
 
 @media (max-width: 400px) {
     #navlinks a {
-        font-size: 1.3em;
+        font-size: 1.2em;
+        margin-top: 45px;
     }
 }
 
