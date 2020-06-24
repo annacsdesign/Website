@@ -313,8 +313,8 @@ body{
 
 @media (max-width: 400px) {
     #biolinks {
-        text-align: center;
-        font-size: 1.3em;
+        /*text-align: center;*/
+        font-size: 1.2em;
     }
 }
 
