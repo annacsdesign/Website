@@ -6,6 +6,7 @@ html {
 
 body{
     font-family: 'Karla', sans-serif;
+    font-family: aktiv-grotesk, sans-serif;
 }
 
 /* Navigation bar */
@@ -183,32 +184,35 @@ body{
     font-weight: 700;
     font-family: 'Karla';
     color: black;
-    font-size: 1.2em;
-    letter-spacing: 1px;
+    font-size: 1.1em;
+    letter-spacing: .8px;
 }
 
 .bodytext {
     margin-top: 15px;
     font-size: 1em;
     line-height: 1.5;
-    font-family: 'Karla';
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 300;
     letter-spacing: .2px;
+    font-style: normal;
 }
 
-.bodytextitc {
-    font-family: 'Karla';
+/*.bodytextitc {
+    font-family: 'Inter';
+    font-weight: 300;
     font-style: italic;
     font-size: 1em;
     line-height: 1.5;
-}
+}*/
 
 .bodytext a {
     text-decoration: none;
     font-weight: 700;
     font-family: 'Karla';
     color: black;
-    font-size: 1.2em;
-    letter-spacing: 1px;
+    font-size: 1.1em;
+    letter-spacing: .8px;
     padding-left: 3px;
     padding-right: 3px;
 }
